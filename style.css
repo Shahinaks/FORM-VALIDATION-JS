@@ -1,0 +1,42 @@
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.is-invalid {
+    border: 1px solid red;
+}
+
+body {
+    background-color: #e9ecef; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    margin-right: 10px;
+}
+
+form::before {
+    content: "User Registration Form";
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #495057; 
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #6c757d; 
+    padding-bottom: 10px;
+}
