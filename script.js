@@ -46,8 +46,5 @@ document.getElementById("registrationForm").addEventListener("submit",(Event)=>{
     if(!validate()){
         Event.preventDefault();
     }
-    // else {
-    //     alert("Form submitted successfully!");
-    // }
 })
 
